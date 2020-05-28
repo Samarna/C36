@@ -3,7 +3,7 @@ var position;
 var gameState = 0;
 var playerCount;
 var form, player, game;
-
+var allPlayers;
 
 function setup(){
   database = firebase.database();
